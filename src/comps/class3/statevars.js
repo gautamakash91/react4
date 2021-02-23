@@ -16,6 +16,10 @@ export default class StateVars extends React.Component {
     //1. calculate sum
     //2. use the sum state variable to calculate average
     //3. display results
+    this.setState({
+      b: this.state.a,
+      c: this.state.b
+    })
   }
 
   handleD = (e) => {
