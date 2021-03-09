@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import StateVars from "./comps/class3/statevars";
+import Fetcher from "./comps/class7/fetcher";
 
 ReactDOM.render(
   <React.StrictMode>
-    <StateVars />
+    <Fetcher />
   </React.StrictMode>,
   document.getElementById('root')
 );
