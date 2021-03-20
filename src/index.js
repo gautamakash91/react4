@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Fetcher from "./comps/class7/fetcher";
+import MyRouter from "./comps/class10/router";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Fetcher />
+    <MyRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,4 +1,8 @@
+import { Button } from "@material-ui/core";
 import React from "react";
+import {
+  Link
+} from "react-router-dom";
 
 export default class Mapper extends React.Component {
   constructor(props) {
@@ -76,6 +80,14 @@ export default class Mapper extends React.Component {
         )}
 
         {this.state.showDescription}
+        <Link to="/avg" style={{textDecoration: "none"}} >
+          <Button
+            variant="contained"
+            color="secondary"
+          >
+            Go to average
+          </Button>
+        </Link>
       </div>
     )
   }
